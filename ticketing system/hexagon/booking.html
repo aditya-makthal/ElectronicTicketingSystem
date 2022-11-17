@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/hexagon/bk.css">
+    <script src="/hexagon/book.js"></script>
+</head>
+<body>
+    
+
+<form action="/payment.html" method="post">
+  <div class="elem-group">
+    <label for="name"><h1>WELCOME</h1></label>
+    
+  </div>
+ 
+ 
+  <hr>
+  <div class="elem-group inlined">
+    <label for="adult">Adults</label>
+    <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+  </div>
+  <div class="elem-group inlined">
+    <label for="child">Children</label>
+    <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+  </div>
+  <div class="elem-group inlined">
+    <label for="checkin-date">Date of visit</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  
+  
+  <hr>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+  <button type="submit" onclick="parent.location='payment.html'">Proceed</button>
+</form>
+</body>
+</html>

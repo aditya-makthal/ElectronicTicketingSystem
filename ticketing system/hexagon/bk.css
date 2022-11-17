@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+div.elem-group {
+ 
+   margin-left: 105px;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+  float: center;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: rgb(32, 8, 1);
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+ padding-left: 100px;
+ padding-right: 100px;
+ margin-left: 65px;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+body {
+ background: url(https://media.istockphoto.com/photos/silhouette-of-taj-mahal-agra-india-picture-id485563307?k=20&m=485563307&s=612x612&w=0&h=k9uo3uY7su37I53vVFn5zJN2Wv7-ixWGG8ZrpVCyjG4=)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

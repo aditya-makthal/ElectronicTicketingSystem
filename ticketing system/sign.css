@@ -1,0 +1,62 @@
+.start {
+  background-image: url("https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#main {
+  color: #d53e3e;
+  font-size: 40px;
+}
+
+.cool {
+  font-weight: normal;
+}
+#jumb {
+  height: 500px;
+  background-color: rgb(139, 70, 70);
+}
+
+#sign-in-jumb {
+  background-color: #fcfcfc;
+  padding: 50px;
+  width: 650px;
+  zoom: 85%;
+  box-shadow: 6px 6px #888888;
+}
+
+.email {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.form-control {
+  height: 50px;
+}
+
+#sign {
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+#a {
+  width: 10px;
+  height: 10px;
+}
+
+#container-fluid {
+  background-color: orangered;
+}
+#final {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 219px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
